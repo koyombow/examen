@@ -18,37 +18,32 @@ public class Ejercicios
 	//devuelve el numero mayor entre a, b, c y d (2pts)
 	static int getMayor(int a, int b, int c, int d)
 	{
-		if (a>b)
+		if((a>b)&&(a>c)&&(a>d))
 		{
-			return a;
-		}else if (b>a)
-		{
-		
-		return b;
-		}
-		if (a>c)
-		{
-			return a;
-		}else if (c>a)
-		{
-		
-		return c;
-		}
-		if (a>d)
-		{
-			return a;
-		}else if (d>a)
-		{
-		
-		return d;
-		}
 		return a;
-	}
-	
+		
+        }
+        else if((b>a)&&(b>c)&&(b>d))
+         {
+	return b;
+         }else
+	return c;
+         }
+         
+         
 	//Pide 2 nombres de personas.
 	//Si los nombres son iguales imprime "Tocayos" de lo contrario imprime "No son tocayos". (2pts)
 	void sonTocayos()
 	{
+		int nombre1;
+		int nombre2;
+		System.out.print("ingrese un nombre");
+		Scanner  s = new Scanner (System.in);
+		System.out.print("ingrese otro nombre" );
+		if(nombre1==nombre2)
+		{
+			return sontocayos;
+        }
 		
 	}
 	
